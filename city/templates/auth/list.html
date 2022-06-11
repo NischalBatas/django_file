@@ -1,0 +1,12 @@
+{%extends 'template.html'%}
+
+{%block content%}
+    <center>
+        <h1>User List</h1>
+        {%for lists in list%}
+        {{lists.first_name}}
+        {{lists.Phone}}
+        {%endfor%}
+    </center>
+
+{%endblock content%}
